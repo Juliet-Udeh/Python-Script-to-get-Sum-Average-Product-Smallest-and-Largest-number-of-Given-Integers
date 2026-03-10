@@ -1,0 +1,15 @@
+Number1 = int(input("Enter a number"))
+Number2 = int(input("Enter second number"))
+Number3 = int(input("Enter third number"))
+
+sum = Number1 + Number2 + Number3
+avg = sum/3
+product =Number1 * Number2 * Number3
+smallest = min(Number1, Number2, Number3)
+largest = max(Number1, Number2, Number3)
+
+print("The sum is", sum)
+print("The average is", avg)
+print("The product is", product)
+print("The smallest is", smallest)
+print("The largest is", largest)
